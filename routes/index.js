@@ -27,7 +27,7 @@ router.get('/users', async (req, res) => {
 });
 
 // GET all subscriptions
-router.get('/subscriptions', async (req, res) => {
+router.get('/list', async (req, res) => {
   try {
     const subscriptions = await Subscription.query()
       .withGraphFetched('[user, plan]');
