@@ -1,0 +1,12 @@
+start.sh
+node_modules/
+dist/
+# Logs
+logs
+npm-debug.log*
+# Runtime data
+pids
+# Dependency directories
+jspm_packages/
+# Optional npm cache directory
+.npm
