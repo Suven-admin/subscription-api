@@ -6,7 +6,8 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "./start.sh"
+        "start": "nohup node server.js > app.log 2>&1 & disown",
+        "dev": "./start.sh"
     },
     "keywords": [],
     "author": "",
